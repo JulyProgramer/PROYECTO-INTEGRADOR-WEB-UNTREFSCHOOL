@@ -40,25 +40,6 @@ a{
     color:#FC7300;
     font-family: 'Belanosima', sans-serif;
 }
-
-.quienes {
-    border-radius: 15px;
-    background-color: rgb(239, 245, 246);
-    padding:5px;
-    margin:5px;
-
-}
-.elegirnos{
-    background-color: rgb(239, 245, 246);
-    border-radius: 15px;
-    padding:5px;
-    margin:5px;
-}
-.propuesta{
-    background-color: rgb(239, 245, 246);
-    border-radius: 15px;
-    padding:5px;
-    margin:5px;
 }
 .noticias{
     background-color: rgb(239, 245, 246);
