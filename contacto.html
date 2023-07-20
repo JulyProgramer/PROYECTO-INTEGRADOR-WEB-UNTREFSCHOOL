@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="icon" type="image/x-icon" href="/icons/icons8-noticias-16.ico">
+    <link rel="stylesheet" href="css/diseñoFormulario.css">
+
+</span><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"><span class="pln">
+    
+    <!-- CSS Reset -->
+    </span><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><span class="pln">
+    
+    <!-- Milligram CSS -->
+    </span><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"><span class="pln">
+    
+    <!-- You should properly set the path from the main file. 
+    
+    Framework Milligram--></span>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Poppins:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+    <div class="formulario">
+    <form action="https://formsubmit.co/jbojuly@gmail.com" method="POST">
+        <input type="hidden" name="sitio" value="localhost" />
+       <label for="Alumno">Alumno:</label>
+       <input type="text" name="Alumno" id="nombre" placeholder="Ingrese su nombre aquí"/>
+    
+       <label for="grado">Grado:</label>
+        <select name="grado" id="grado_alumno" placeholder="Ingrese el grado del alumno aquí">
+            <option>1º</option>
+            <option>2º</option>
+            <option>3º</option>
+            <option>4º</option>
+            <option>5º</option>
+            <option>6º</option>
+        </select>
+
+       <label for="email">Email:</label>
+       <input type="email" name="mail" id="mail" placeholder="Ingrese su mail aquí:"/>
+
+       <label for="consulta">Consulta:</label> 
+       <textarea name="consulta" cols="30" rows="10" maxlength="500" placeholder="Ingrese su consulta(máximo 500 caracteres)"></textarea>
+    </form>
+    </div>
+
+    <div class="enviar">
+        <input type="submit" id=boton_enviar value="Enviar">
+    </div>
+</body>
+</html>

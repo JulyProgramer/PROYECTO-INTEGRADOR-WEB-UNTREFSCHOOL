@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+
+
+body{
+    background-color:  rgb(31, 138, 112);
+    margin:0;
+}
+.head {
+    background-color: rgb(24, 24, 35);
+    color:rgb(239, 245, 246);
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    position: sticky;
+    top:1px;
+}
+.head a:hover{
+    color: #FC7300;
+}
+a{
+    color:rgb(239, 245, 246);
+    padding:3px;
+}
+.titulo{
+    text-align: center;
+    background-image: url(https://img.freepik.com/fotos-premium/aula-vacia-escuela-primaria-pizarra-mochila-escolar-colgando-escritorio-maestro_43780-6456.jpg);
+    background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    -webkit-background-size: cover ;
+    -o-background-size: cover;
+    background-size: cover;
+    padding:15%;
+    color:#FC7300;
+    font-family: 'Belanosima', sans-serif;
+}
+
+.quienes {
+    border-radius: 15px;
+    background-color: rgb(239, 245, 246);
+    padding:5px;
+    margin:5px;
+
+}
+.elegirnos{
+    background-color: rgb(239, 245, 246);
+    border-radius: 15px;
+    padding:5px;
+    margin:5px;
+}
+.propuesta{
+    background-color: rgb(239, 245, 246);
+    border-radius: 15px;
+    padding:5px;
+    margin:5px;
+}
+.noticias{
+    background-color: rgb(239, 245, 246);
+     border-radius: 15px;
+    padding:5px;
+    margin:5px;
+}
+
+.mapa{
+    background-color: rgb(0, 66, 90);
+    color:rgb(239, 245, 246);
+    padding:10px;
+    border:10px;
+    float: bottom;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.mapa > div{
+    flex-direction: column;
+}
+.mapa a:hover{
+    color: #FC7300;
+}
+.mapa iframe{
+    left:0;
+    top:0;
+    height:80%;
+    width:80%;
+    padding: 1px;
+}
+
+
+
