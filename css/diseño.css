@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+
+
+body{
+    background-color:  rgb(31, 138, 112);
+    margin:0;
+    text-align: center;
+}
+.header {
+    background-color: rgb(24, 24, 35);
+    color:rgb(239, 245, 246);
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    position: sticky;
+    top:1px;
+}
+.header a:hover{
+    color: #FC7300;
+}
+a{
+    color:rgb(239, 245, 246);
+    padding:3px;
+}
+.titulo{
+    text-align: center;
+    background-image: url(https://img.freepik.com/fotos-premium/aula-vacia-escuela-primaria-pizarra-mochila-escolar-colgando-escritorio-maestro_43780-6456.jpg);
+    background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    -webkit-background-size: cover ;
+    -o-background-size: cover;
+    background-size: cover;
+    padding:15%;
+    color:#FC7300;
+    font-family: 'Belanosima', sans-serif;
+}
+.quienes{
+    max-width: 800px;
+    margin: auto;
+    font-size: large;
+}
+.elegirnos{
+    max-width: 800px;
+    margin: auto;
+    font-size: large;
+}
+.propuesta{
+    max-width: 800px;
+    margin: auto;
+    font-size: larger;
+}
+.noticias{
+    background-color: rgb(239, 245, 246);
+    border-radius: 15px;
+    padding:5px;
+    margin:5px;
+}
+
+.noticias img{
+    width: 70%;
+}
+
+.footer{
+    background-color: rgb(0, 66, 90);
+    color:rgb(239, 245, 246);
+    padding:10px;
+    border:10px;
+    float: bottom;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.footer a:hover{
+    color: #FC7300;
+}
+.footer iframe{
+    left:0;
+    top:0;
+    height:80%;
+    width:80%;
+    padding: 1px;
+}
+
+@media screen and (min-width: 535px) {
+    .titulo{
+        font-size: 1.5em;}
+    .quienes{
+        font-size: x-large;}
+    .elegirnos{
+        font-size: x-large;}
+    .propuesta{
+        font-size: x-large;}
+    .noticias > h4{
+        width: 70%;
+        float:right;
+        margin: 1px;
+    }
+    .noticias > p{
+        width: 70%;
+        float:right;
+    }
+    .noticias img{
+        width: 30%;
+    }
+}
